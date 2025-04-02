@@ -1,4 +1,18 @@
 # PoC-0day-7-Zip
+1. Save the code to a file: For example, generate_7z.c.
+
+2. Compile with GCC:
+
+gcc generate_7z.c -o generate_7z
+
+3. Run the program:
+
+./generate_7z
+
+4. Check the generated file:
+
+ls -l crafted.7z
+
 
 Build and run the PoC:
 
